@@ -1,9 +1,10 @@
 {
-  "name": "simple_calculator",
-  "version": "1.0.0",
+  "name": "bm-simple_calculator",
+  "version": "1.0.3",
   "description": "Easy way to making a Simple calculator",
   "main": "index.js",
   "type": "module",
+  "bin": "demo1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,7 @@
   "author": "Bisma Muqeed",
   "license": "ISC",
   "dependencies": {
+    "bm-simple_calculator": "^1.0.2",
     "inquirer": "^9.2.16"
   },
   "devDependencies": {
